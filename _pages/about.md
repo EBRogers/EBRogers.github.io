@@ -1,10 +1,7 @@
 ---
-permalink: /
-title: "Hey there, I'm Ethan. "
+permalink: /about/
+title: "About"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 Currently, I'm working on my PhD in [Personal Health Informatics](https://phi.khoury.northeastern.edu/) at [Northeastern University](https://www.northeastern.edu/). I'm part of the [Vitek Lab](https://olga-vitek-lab.khoury.northeastern.edu/), where I study statistical analysis of mass spectrometry imaging. 
 

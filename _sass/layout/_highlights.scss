@@ -1,0 +1,368 @@
+/* ==========================================================================
+   Current Position Component
+   ========================================================================== */
+
+.current-position {
+  background: linear-gradient(135deg, rgba(200, 16, 46, 0.08) 0%, rgba(255, 255, 255, 0.9) 100%);
+  padding: 1.2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(200, 16, 46, 0.12), 
+              0 4px 12px rgba(0, 0, 0, 0.06),
+              inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  margin: 1.5rem 0;
+  border: 1px solid rgba(200, 16, 46, 0.2);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  &:hover {
+    box-shadow: 0 12px 32px rgba(200, 16, 46, 0.15), 
+                0 6px 16px rgba(0, 0, 0, 0.08),
+                inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    transform: translateY(-1px);
+  }
+
+  &__icon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    filter: drop-shadow(0 2px 4px rgba(200, 16, 46, 0.3));
+  }
+
+  &__content {
+    flex: 1;
+    font-size: 1rem;
+    color: #1a1a1a;
+    line-height: 1.6;
+
+    a {
+      color: #C8102E;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: #9a0c23;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+   Highlights Box Component
+   ========================================================================== */
+
+.highlights-box {
+  background: linear-gradient(135deg, rgba(232, 245, 233, 0.4) 0%, rgba(241, 248, 240, 0.6) 100%);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(107, 142, 111, 0.08), 
+              0 4px 12px rgba(0, 0, 0, 0.06),
+              inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  margin: 1.5rem 0;
+  border: 1px solid rgba(168, 197, 163, 0.3);
+  backdrop-filter: blur(10px);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 12px 32px rgba(107, 142, 111, 0.12), 
+                0 6px 16px rgba(0, 0, 0, 0.08),
+                inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  }
+
+  &__title {
+    color: #3d3d3d;
+    margin-top: 0;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(61, 61, 61, 0.2);
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__grid {
+    display: grid;
+    gap: 0.25rem;
+  }
+
+  &__item {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(248, 252, 248, 0.8) 100%);
+    padding: 0.45rem 0.65rem;
+    border-radius: 6px;
+    border: 1px solid rgba(168, 197, 163, 0.2);
+    box-shadow: 0 2px 6px rgba(107, 142, 111, 0.08),
+                0 1px 3px rgba(0, 0, 0, 0.04),
+                inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    transition: all 0.2s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 10px rgba(107, 142, 111, 0.12),
+                  0 2px 5px rgba(0, 0, 0, 0.06),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.8);
+      border-color: rgba(168, 197, 163, 0.4);
+    }
+
+    // Override global paragraph margins
+    p {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      margin: 0 0 0.15rem 0;
+    }
+  }
+
+  &__item-title {
+    color: #3d3d3d;
+    margin: 0 0 0.15rem 0;
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  &__item-text {
+    margin: 0;
+    line-height: 1.35;
+    font-size: 0.8rem;
+    color: #555;
+
+    a {
+      color: #5f7c63;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: #4a6350;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+   Updates Box Component
+   ========================================================================== */
+
+.updates-box {
+  background: linear-gradient(135deg, rgba(79, 93, 149, 0.06) 0%, rgba(242, 244, 250, 0.8) 100%);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(79, 93, 149, 0.1), 
+              0 4px 12px rgba(0, 0, 0, 0.06),
+              inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  margin: 1.5rem 0;
+  border: 1px solid rgba(95, 115, 180, 0.25);
+  backdrop-filter: blur(10px);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 12px 32px rgba(79, 93, 149, 0.12), 
+                0 6px 16px rgba(0, 0, 0, 0.08),
+                inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  }
+
+  &__title {
+    color: #3d3d3d;
+    margin-top: 0;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(61, 61, 61, 0.2);
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__grid {
+    display: grid;
+    gap: 0.25rem;
+  }
+
+  &__item {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(250, 251, 254, 0.8) 100%);
+    padding: 0.45rem 0.65rem;
+    border-radius: 6px;
+    border: 1px solid rgba(95, 115, 180, 0.15);
+    box-shadow: 0 2px 6px rgba(79, 93, 149, 0.08),
+                0 1px 3px rgba(0, 0, 0, 0.04),
+                inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    transition: all 0.2s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 10px rgba(79, 93, 149, 0.12),
+                  0 2px 5px rgba(0, 0, 0, 0.06),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.8);
+      border-color: rgba(95, 115, 180, 0.3);
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  &__item-date {
+    font-weight: 700;
+    color: #4f5d95;
+    font-size: 0.8rem;
+    margin-right: 0.4rem;
+  }
+
+  &__item-text {
+    display: inline;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #555;
+    line-height: 1.35;
+
+    a {
+      color: #5573b8;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: #3d5494;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* ==========================================================================
+   Dark Theme Support
+   ========================================================================== */
+
+html[data-theme="dark"] {
+  
+  .current-position {
+    background: linear-gradient(135deg, rgba(200, 16, 46, 0.15) 0%, rgba(26, 26, 26, 0.3) 100%);
+    border: 1px solid rgba(200, 16, 46, 0.4);
+    box-shadow: 0 8px 24px rgba(200, 16, 46, 0.2), 
+                0 4px 12px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.05);
+
+    &:hover {
+      box-shadow: 0 12px 32px rgba(200, 16, 46, 0.25), 
+                  0 6px 16px rgba(0, 0, 0, 0.35),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    }
+
+    &__content {
+      color: #e8e8e8;
+
+      a {
+        color: #ff6b7f;
+
+        &:hover {
+          color: #ff8a9a;
+        }
+      }
+    }
+  }
+
+  .highlights-box {
+    background: linear-gradient(135deg, rgba(107, 142, 111, 0.1) 0%, rgba(74, 99, 80, 0.15) 100%);
+    border: 1px solid rgba(122, 155, 118, 0.25);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 
+                0 4px 12px rgba(0, 0, 0, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.05);
+
+    &:hover {
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4), 
+                  0 6px 16px rgba(0, 0, 0, 0.25),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    }
+
+    &__title {
+      color: #e8e8e8;
+      border-bottom-color: rgba(232, 232, 232, 0.2);
+    }
+
+    &__item {
+      background: linear-gradient(135deg, rgba(80, 100, 85, 0.3) 0%, rgba(60, 80, 65, 0.25) 100%);
+      border: 1px solid rgba(122, 155, 118, 0.2);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25),
+                  0 1px 3px rgba(0, 0, 0, 0.15),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.03);
+
+      &:hover {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35),
+                    0 2px 5px rgba(0, 0, 0, 0.2),
+                    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+        border-color: rgba(122, 155, 118, 0.35);
+      }
+    }
+
+    &__item-title {
+      color: #e8e8e8;
+    }
+
+    &__item-text {
+      color: #b8b8b8;
+
+      a {
+        color: #8fb894;
+
+        &:hover {
+          color: #a8c5a3;
+        }
+      }
+    }
+  }
+
+  .updates-box {
+    background: linear-gradient(135deg, rgba(79, 93, 149, 0.15) 0%, rgba(60, 70, 110, 0.2) 100%);
+    border: 1px solid rgba(95, 115, 180, 0.35);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), 
+                0 4px 12px rgba(0, 0, 0, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.05);
+
+    &:hover {
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4), 
+                  0 6px 16px rgba(0, 0, 0, 0.25),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    }
+
+    &__title {
+      color: #e8e8e8;
+      border-bottom-color: rgba(232, 232, 232, 0.2);
+    }
+
+    &__item {
+      background: linear-gradient(135deg, rgba(70, 85, 130, 0.3) 0%, rgba(55, 65, 100, 0.25) 100%);
+      border: 1px solid rgba(95, 115, 180, 0.25);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25),
+                  0 1px 3px rgba(0, 0, 0, 0.15),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.03);
+
+      &:hover {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35),
+                    0 2px 5px rgba(0, 0, 0, 0.2),
+                    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+        border-color: rgba(95, 115, 180, 0.4);
+      }
+    }
+
+    &__item-date {
+      color: #8fa5d8;
+    }
+
+    &__item-text {
+      color: #b8b8b8;
+
+      a {
+        color: #7b9de8;
+
+        &:hover {
+          color: #a0b8f0;
+        }
+      }
+    }
+  }
+}
