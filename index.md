@@ -4,8 +4,6 @@ author_profile: true
 permalink: /
 ---
 
-# Welcome
-
 <div class="current-position">
   <div class="current-position__icon">
     📍
