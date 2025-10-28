@@ -20,12 +20,12 @@ permalink: /
     
     <div class="highlights-box__item">
       <h3 class="highlights-box__item-title">Current Project: Workflows for differential analysis of MSI</h3>
-      <p class="highlights-box__item-text">I'm currently developing workflows for differential analysis of multi-sample MSI experiments with complex designs.</p>
+      <p class="highlights-box__item-text">I'm currently developing workflows for differential analysis of multi-sample MSI experiments with complex designs. I've showcased some of this work at ASMS 73 and <a href="/files/posters/IMSIS3_2025_EthanRogers.pdf" target="_blank">IMSIS3</a>. Manuscript coming soon!</p>
     </div>
     
     <div class="highlights-box__item">
       <h3 class="highlights-box__item-title">Organizing May Insitute</h3>
-      <p class="highlights-box__item-text">I help organize <a href="https://computationalproteomics.khoury.northeastern.edu" target="_blank">May Insitute</a>, a series of short courses on statistics, mass spectrometry, and computational biology. <a href="https://lp.constantcontactpages.com/sl/nhAT6uG/MIsubscribe" target="_blank">Applications open soon, sign up to be notified!</a>.</p>
+      <p class="highlights-box__item-text">I help organize <a href="https://computationalproteomics.khoury.northeastern.edu" target="_blank">May Insitute</a>, a series of short courses on statistics, mass spectrometry, and computational biology. <a href="https://lp.constantcontactpages.com/sl/nhAT6uG/MIsubscribe" target="_blank">Applications open soon, sign up to be notified!</a></p>
     </div>
     
   </div>
@@ -47,6 +47,20 @@ permalink: /
       <p>
         <span class="updates-box__item-date">10/2025</span>
         <span class="updates-box__item-text">Attended <a href="https://imsis3.msimaging.science" target="_blank">IMSIS3</a> at the beautiful campus of UC Davis. <a href="/files/posters/IMSIS3_2025_EthanRogers.pdf" target="_blank">Check out my poster.</a></span>
+      </p>
+    </div>
+
+    <div class="updates-box__item">
+      <p>
+        <span class="updates-box__item-date">6/2025</span>
+        <span class="updates-box__item-text">Attended <a href="https://www.asms.org" target="_blank">ASMS 73</a> in Baltimore, MD. My first ASMS!</span>
+      </p>
+    </div>
+
+    <div class="updates-box__item">
+      <p>
+        <span class="updates-box__item-date">5/2025</span>
+        <span class="updates-box__item-text">Thank you to all the instructors and participants who made <a href="https://computationalproteomics2025.khoury.northeastern.edu" target="_blank">May Insitute 2025</a> a success!</span>
       </p>
     </div>
     

@@ -167,6 +167,7 @@ exclude:
   - .github
   - .jekyll-assets-cache
   - .sass-cache
+  - .venv
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
