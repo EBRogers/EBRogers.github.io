@@ -19,7 +19,8 @@ $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* Sans serif typefaces */
-$sans-serif-narrow          : $sans-serif;
+$inter                      : "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
+$sans-serif-narrow          : $inter;
 $helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
 
 /* Serif typefaces */
@@ -39,8 +40,8 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
+$global-font-family         : $inter;
+$header-font-family         : $inter;
 $caption-font-family        : $serif;
 
 /* ==========================================================================
