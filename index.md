@@ -19,13 +19,18 @@ permalink: /
   <div class="highlights-box__grid">
     
     <div class="highlights-box__item">
-      <h3 class="highlights-box__item-title">Current Project: Workflows for differential analysis of MSI</h3>
+      <h3 class="highlights-box__item-title">Current Projects: Spatial statistics with MSI data</h3>
+      <p class="highlights-box__item-text">I'm exploring spatial models and MSI data, with the purpose of developing ways to rigorusly test how spatial patterns change accross conditions and interventions. Planning to showcase some of this work at ASMS 74. Stay tuned!</p>
+    </div>
+    
+    <div class="highlights-box__item">
+      <h3 class="highlights-box__item-title">Current Projects: Workflows for differential analysis of MSI</h3>
       <p class="highlights-box__item-text">I'm currently developing workflows for differential analysis of multi-sample MSI experiments with complex designs. I've showcased some of this work at ASMS 73 and <a href="/files/posters/IMSIS3_2025_EthanRogers.pdf" target="_blank">IMSIS3</a>. Manuscript coming soon!</p>
     </div>
     
     <div class="highlights-box__item">
       <h3 class="highlights-box__item-title">Organizing May Insitute</h3>
-      <p class="highlights-box__item-text">I help organize <a href="https://computationalproteomics.khoury.northeastern.edu" target="_blank">May Insitute</a>, a series of short courses on statistics, mass spectrometry, and computational biology. <a href="https://lp.constantcontactpages.com/sl/nhAT6uG/MIsubscribe" target="_blank">Applications open soon, sign up to be notified!</a></p>
+      <p class="highlights-box__item-text">I help organize <a href="https://computationalproteomics.khoury.northeastern.edu" target="_blank">May Insitute</a>, a series of short courses on statistics, mass spectrometry, and computational biology. <a href="https://lp.constantcontactpages.com/sl/nhAT6uG/MIsubscribe" target="_blank">Applications are open!</a></p>
     </div>
     
   </div>
@@ -35,7 +40,12 @@ permalink: /
   <h2 class="updates-box__title">Updates</h2>
   
   <div class="updates-box__grid">
-    
+    <div class="updates-box__item">
+      <p>
+        <span class="updates-box__item-date">2/2026</span>
+        <span class="updates-box__item-text">Want to learn how to analyze multi-omic spatial data? I'm co-teaching a course on <a href="https://cardinalmsi.org" target="_blank">Cardinal for MSI</a> at the  <a href="https://www.vibconferences.be/events/spatial-omics-summer-school" target="_blank">Spatial Omics Summer school in Bruges, Belgium (June 15-19, 2026)</a>.</span>
+      </p>
+    </div>
     <div class="updates-box__item">
       <p>
         <span class="updates-box__item-date">10/2025</span>
