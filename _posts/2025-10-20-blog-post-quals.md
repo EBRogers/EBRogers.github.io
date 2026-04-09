@@ -58,22 +58,25 @@ Research Core
 
 **Date of completion:** very soon
 
-**Current status:** final editing before submission
+**Current status:** As of 4/8/26, on BioRxiv and submitted to *Analytical Chemestry*
 
 *Title:* Statistical Principles Define an Open-Source Differential Analysis Workflow for Mass Spectrometry Imaging Experiments with Complex Designs: A Case Study of Osteoarthritis
 
-*Author list and affiliations:* **Ethan B Rogers**<sup>1</sup>, Sai Srikanth Lakkimsetty<sup>1</sup>, Kylie Ariel Bemis<sup>1</sup>, Charles A Schurman<sup>2</sup>, Peggi M Angel<sup>3</sup>, Birgit Schilling<sup>2</sup>, Olga Vitek<sup>1</sup>
+*Author list and affiliations:* **Ethan B T Rogers**<sup>1</sup>, Sai Srikanth Lakkimsetty<sup>1</sup>, Kylie Ariel Bemis<sup>1</sup>, Charles A Schurman<sup>2</sup>, Peggi M Angel<sup>3</sup>, Birgit Schilling<sup>2</sup>, Olga Vitek<sup>1</sup>
 <sup>1</sup>Khoury College of Computer Sciences, Northeastern University, Boston MA \\
 <sup>2</sup>Buck Institute for Research on Aging, Novato CA \\
 <sup>3</sup>Department of Pharmacology and Immunology, Medical University of South Carolina, Charleston SC
 
-*Abstract:* available upon submission to preprint server
+*Abstract:* 
+Mass spectrometry imaging (MSI) characterizes the spatial heterogeneity of molecular abundances in biological samples. Experiments with complex designs, involving multiple conditions and multiple samples, provide particularly useful insight into differential abundance of analytes. However, analyses of these experiments require attention to details such as signal processing, selection of regions of interest, and statistical methodology. This manuscript contributes a statistical analysis workflow for detecting differentially abundant analytes in MSI experiments with complex designs. Using a case study of histologic samples of human tibial plateaus from knees of osteoarthritis patients and cadaveric controls, as well as simulated datasets, we illustrate the impact of the analysis decisions. We illustrate the importance of signal processing and feature aggregation for preserving biological relevance and alleviating the stringency of multiple testing. We further demonstrate the importance of selecting regions of interest in ways that are compatible with differential analysis. Finally, we contrast several common statistical models for differential analysis, showcase the appropriate use of replication, and demonstrate model-based calculation of sample size for followup investigations. The discussion is accompanied by detailed recommendations and an open-source R-based implementation that can be followed by other investigations.
 
 *Link:* available upon submission to preprint server
 
-*Journal:* available upon submission to preprint server
+*Journal:* [Analytical Chemistry](https://pubs.acs.org/journal/ancham), part of the American Chemical Society
 
-*Vignettes of the workflow developed as part of this work*: available upon submission to preprint server
+*Vignettes of the workflow developed as part of this work*: 
+- [Code repository](https://github.com/EBRogers/MSI-Arthritis-Vignettes)
+- [GitHub pages for easy browsing](https://ebrogers.github.io/MSI-Arthritis-Vignettes)
 
 *Statement from examiner, Dr. Olga Vitek, on the role of myself and each author:* coming soon
 
