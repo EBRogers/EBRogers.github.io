@@ -25,7 +25,7 @@ permalink: /
     
     <div class="highlights-box__item">
       <h3 class="highlights-box__item-title">Current Projects: Workflows for differential analysis of MSI</h3>
-      <p class="highlights-box__item-text">I'm currently developing workflows for differential analysis of multi-sample MSI experiments with complex designs. I've showcased some of this work at ASMS 73 and <a href="/files/posters/IMSIS3_2025_EthanRogers.pdf" target="_blank">IMSIS3</a>. Preprint on BioRxiv.</p>
+      <p class="highlights-box__item-text">I'm currently developing workflows for differential analysis of multi-sample MSI experiments with complex designs. I've showcased some of this work at ASMS 73 and <a href="/files/posters/IMSIS3_2025_EthanRogers.pdf" target="_blank">IMSIS3</a>. Preprint on <a href="https://doi.org/10.64898/2026.04.08.717212" target="_blank">bioRxiv</a>.</p>
     </div>
     
     <div class="highlights-box__item">
