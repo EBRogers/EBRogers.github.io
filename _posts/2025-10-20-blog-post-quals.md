@@ -58,7 +58,7 @@ Research Core
 
 **Date of completion:** very soon
 
-**Current status:** As of 4/8/26, on BioRxiv and submitted to *Analytical Chemestry*
+**Current status:** As of 4/8/26, on BioRxiv and submitted to *Analytical Chemistry*
 
 **Title:** *Statistical Principles Define an Open-Source Differential Analysis Workflow for Mass Spectrometry Imaging Experiments with Complex Designs: A Case Study of Osteoarthritis*
 
@@ -87,7 +87,14 @@ Some stats (from 2025):
 
 **Statement from examiner, Dr. Olga Vitek, on the role of myself and each author:** coming soon
 
-**Date of presentation to PHI group:** coming soon
+**Date of presentation to PHI group:**
+- **Ethan Rogers (student):** Conducted each step of the analysis workflow: writing the code, creating the simulations, and producing the results. Wrote every section of the original manuscript, integrating edits as necessary.
+- **Olga Vitek (examiner/last author):** Offered guidance on all aspects of the analysis. Verified and corrected all equations. Extensively edited all manuscript sections. Reviewed final manuscript for accuracy.
+- **Sai Srikanth Lakkemesetty (coauthor):** Conducted initial preprocessing, later amended by Ethan. Extensive assistance troubleshooting issues with analysis. Reviewed final manuscript for accuracy.
+- **Kylie Bemis (coauthor):** Technical assistance with the Cardinal software suite. Reviewed final manuscript for accuracy.
+- **Charles Schurman (coauthor):** Collected data. Consulted on biological and acquisition-specific questions. Reviewed final manuscript for accuracy.
+- **Peggi Angel (coauthor):** Provided biological specimens and guided data acquisition. Consulted on biological and acquisition-specific questions. Reviewed final manuscript for accuracy and offered feedback for direction.
+- **Birgit Schilling (coauthor):** Collected data. Consulted on biological and acquisition-specific questions. Reviewed final manuscript for accuracy.
 
 **Other details:** This work has been previously presented in posters at two conferences, ASMS (2025) and IMSIS3 (2025). Reprints available upon request.
 
